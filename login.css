@@ -1,0 +1,57 @@
+
+.formulario-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCC;
+    color: #3CB371;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+option, select, input {
+    color: #3CB371;
+}
+
+#error {
+    color: red;
+}

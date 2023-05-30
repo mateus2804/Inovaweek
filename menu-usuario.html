@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu-motorista</title>
+    <link href="menu-usuario.css" rel="stylesheet" type="text/css" />
+    <link href="geral.css" rel="stylesheet" type="text/css" />
+    <script src="geral.js" defer></script>
+    <script src="menu-usuario.js" defer></script>
+</head>
+<body>
+    <div class="primeira-parte">
+        <div class="nav-bar">
+          <div class="left-bar">
+            <h1 id="titulo"><a href="menu-usuario.html" class="title-link">Drive Deal</a></h1>
+          </div>
+          <div class="right-bar" id="right-bar">
+            <h3 id="subtituto"><a href="register.html" class="navbar-link"></h3>
+            <h3><a href="perfil-usuario.html" class="nome-motorista">Meu Perfil</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="segunda-parte">
+        <div class="content">
+          <div class="left-content">
+            <h1>Nessa parte do menu destinado aos motoristas do app, nós temos o objetivo de futuramente inserir um sistema de geolocalização com um mapa para facilitar a escolha de destino e local de partida do motorista.</h1>
+            <p id="geoloc"></p>
+          </div>
+        <div class="right-content">
+            <form id="form">
+              <label for="name"><h1>Adicionar amigos:</h1></label>
+              <h3 class="alerta"></h3>
+              <input type="text" id="amigo-procurado">
+              <button type="submit" id="enviar" class="enviar">Adicionar</button>
+            </form>
+  
+            <h1>Lista de amigos: </h1>
+            <div class="lista-amigos">
+              <div class="amigo" id="amigo-1"></div>
+              <div class="amigo" id="amigo-2"></div>
+              <div class="amigo" id="amigo-3"></div>
+              <div class="amigo" id="amigo-4"></div>
+              <div class="amigo" id="amigo-5"></div>
+            </div>
+        </div>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primeira-parte {
+  background-color: #3CB371;
+  color: #D3D3D3;
+}
+
+body {
+  background-color: #D3D3D3;
+  font-family: 'Roboto Slab', serif;
+}
+
+#subtitulo {
+  font-style: italic;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.left-bar,
+.right-bar {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-link, .title-link, .nome-motorista {
+    text-decoration: none;
+    color: #D3D3D3;
+    position: relative;
+  }
+
+  .button-link {
+    text-decoration: none;
+    color: #3CB371;
+  }
+
+  a.button-link:hover {
+    color: green;
+  }
+  
+  a.navbar-link:hover, a.title-link:hover, a.nome-motorista:hover {
+    color: #ffff;
+  }
+
+  .enviar:hover {
+    color: green;
+  }

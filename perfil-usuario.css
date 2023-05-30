@@ -1,0 +1,23 @@
+.segunda-parte {
+    background-color: #3CB371;
+}
+
+.left-content, .right-content {
+    width: 50%;
+    padding: 150px;
+    border: solid 5px #D3D3D3;
+}
+
+.left-content, .right-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    color: #D3D3D3;
+}
+
+.content {
+    display: flex;
+    padding: 150px;
+    gap: 200px;
+}

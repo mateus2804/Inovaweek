@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="geral.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
+    <script src="login.js" defer></script>
+    <script src="geral.js" defer></script>
+</head>
+<body>
+    <div class="primeira-parte">
+        <div class="nav-bar">
+          <div class="left-bar">
+            <h1 id="titulo"><a href="index.html" class="title-link">Drive Deal</a></h1>
+          </div>
+          <div class="right-bar">
+            <h3 id="subtitulo"><a href="register.html" class="navbar-link">Ainda não criou uma conta?</a></h3>
+          </div>
+        </div>
+    <div class="segunda-parte">
+        <div class="title">
+            <h1>Insira suas informações para fazer Login.</h1>
+            <h3 id="error"></h3>
+        </div>
+        <div class="formulario-1">
+            <form id="form">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password">
+
+                <label for="type">Tipo de login:</label>
+                <select name="type" id="type">
+                    <option value="">Selecione seu tipo de login:</option>
+                    <option value="motorista">Motorista</option>
+                    <option value="usuario">Usuário</option>
+                </select>
+
+                <button type="submit" id="enviar" class="enviar">Enviar</button>
+
+                <h2 style="text-align: center;">Credencias para entrar no site: <br> email: motorista@gmail.com; senha: 12345678; login: motorista. <br> email: usuario@gmail.com; senha: 12345678; login:usuario. </h2>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

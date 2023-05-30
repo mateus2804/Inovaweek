@@ -1,0 +1,80 @@
+#right-bar {
+    gap: 30px;
+}
+
+.content {
+    color: #D3D3D3;
+    background-color: #3CB371;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    gap: 50px;
+}
+
+.left-content, .right-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 100px;
+}
+
+.left-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+.right-content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 50%;
+    border: 1px solid #CCC;
+    color: #3CB371;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.lista-amigos{
+    border: 4px solid #D3D3D3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px
+}
+
+.amigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #D3D3D3;
+    text-align: center;
+    height: 30px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCC;
+    color: #3CB371;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+.alerta {
+    color: red;
+}
